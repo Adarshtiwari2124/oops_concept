@@ -1,6 +1,6 @@
 package Polymorphosim;
 
-public class A {
+public class method_overloading_no_of_arguments {
     void show(int a ){
         System.out.println("1");
     }
@@ -9,7 +9,7 @@ public class A {
     }
 
     public static void main(String[] args) {
-        A t = new A();
+        method_overloading_no_of_arguments t = new method_overloading_no_of_arguments();
         t.show();
     }
 
